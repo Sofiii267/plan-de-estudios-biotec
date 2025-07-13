@@ -1,0 +1,30 @@
+body {
+  font-family: sans-serif;
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+
+#materias {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.materia {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  background-color: #ccc;
+  transition: 0.2s;
+}
+
+.materia.aprobada {
+  background-color: #4caf50;
+  color: white;
+}
+
+.materia:disabled {
+  background-color: #eee;
+  cursor: not-allowed;
+}
