@@ -1,8 +1,8 @@
 body {
   font-family: 'Segoe UI', sans-serif;
   padding: 30px;
-  background-color: #f9f9fb;
-  color: #2c3e50;
+  background-color: #fff0f5;
+  color: #4a154b;
   max-width: 1000px;
   margin: auto;
 }
@@ -11,13 +11,13 @@ h1 {
   text-align: center;
   margin-bottom: 0;
   font-size: 2rem;
-  color: #1f2937;
+  color: #c2185b;
 }
 
 p {
   text-align: center;
   margin-bottom: 30px;
-  color: #555;
+  color: #6a1b9a;
 }
 
 .anio {
@@ -25,16 +25,16 @@ p {
 }
 
 .anio h2 {
-  border-bottom: 2px solid #ccc;
+  border-bottom: 2px solid #f8bbd0;
   padding-bottom: 5px;
   margin-bottom: 15px;
   font-size: 1.3rem;
-  color: #374151;
+  color: #880e4f;
 }
 
 .cuatrimestre h3 {
   margin: 10px 0 15px;
-  color: #4b5563;
+  color: #ad1457;
 }
 
 .materias-grid {
@@ -44,34 +44,36 @@ p {
 }
 
 .materia {
-  padding: 10px 14px;
-  border-radius: 10px;
-  background-color: #e0f7fa;
-  color: #006064;
-  font-weight: 500;
+  padding: 12px 16px;
+  border-radius: 12px;
+  background-color: #fce4ec;
+  color: #880e4f;
+  font-weight: 600;
   cursor: pointer;
   text-align: center;
   flex: 1 1 180px;
   border: none;
   transition: 0.2s;
+  box-shadow: 2px 2px 4px rgba(0,0,0,0.1);
 }
 
 .materia:hover {
-  background-color: #b2ebf2;
+  background-color: #f8bbd0;
 }
 
 .materia.aprobada {
-  background-color: #a5d6a7;
-  color: #1b5e20;
+  background-color: #ec407a;
+  color: white;
 }
 
 .materia.habilitada:not(.aprobada) {
-  background-color: #fff9c4;
-  color: #827717;
+  background-color: #f48fb1;
+  color: #4a154b;
 }
 
 .materia.bloqueada {
-  background-color: #eeeeee;
-  color: #999;
+  background-color: #f3f3f3;
+  color: #aaa;
   cursor: not-allowed;
 }
+
